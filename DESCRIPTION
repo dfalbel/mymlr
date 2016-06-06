@@ -5,7 +5,7 @@ Authors@R: person("Daniel", "Falbel", email = "dfalbel@gmail.com", role = c("aut
 Description: Provides extensions for the mlr package.
 Depends:
     R (>= 3.2.5)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
