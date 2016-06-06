@@ -2,3 +2,4 @@
 
 export(log.loss)
 importFrom(Metrics,logLoss)
+importFrom(mlr,makeMeasure)

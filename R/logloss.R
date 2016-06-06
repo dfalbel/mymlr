@@ -31,8 +31,10 @@ logLoss <- function(task, model, pred, feats, extra.args) {
 #' ## Calculate the performance using the new measure
 #' performance(pred, measures = log.loss)
 #'
+#' @importFrom mlr makeMeasure
+#'
 #' @export
-log.loss = mlr::makeMeasure(
+log.loss <- mlr::makeMeasure(
   id = "log.loss", name = "Mean Logloss",
   properties = c("classif", "req.pred", "req.truth"),
   minimize = TRUE, best = 0, worst = Inf,
